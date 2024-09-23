@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Evellyn Silva</title>
+</head>
+
+<body>
+    <div id="apresentacao" style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;">
+        <h1>EVELLYN CAROLYNE GOMES DA SILVA</h1>
+        <img src="evaft.jpg" style="height: 200px; border-radius: 50%;">
+        <h3>(Graduanda em Análise e Desenvolvimento de Sistemas)</h3>
+        <p style="text-align: center;">
+            <a href="https://www.linkedin.com/in/eva-silva-9b6641210"><img src="link (1).png" style="height: 50px; width: 50px;" alt=""></a>
+            <a href="https://encurtador.com.br/f1HJO"><img src="curri2 (1).png" alt="" style="height: 50px; width: 50px;"></a>
+            <a href="https://encurtador.com.br/nrRNy"><img src="curri3 (1).png" alt="" style="height: 50px; width: 60px;"></a>
+        </p>
+        <hr>
+    </div>
+
+    <div id="center">
+        <nav>
+            <a href="#sobre" onclick="loadContent('sobre.html')">Sobre</a> | 
+            <a href="#formacao" onclick="loadContent('formacao.html')">Formação Acadêmica</a> | 
+            <a href="#experiencia" onclick="loadContent('experiencia.html')">Experiência Profissional</a>
+        </nav>
+        <hr>
+    </div>
+
+    <iframe id="contentFrame" src="" frameborder="0" style="width: 100%; height: 400px;"></iframe>
+
+    <div id="contato">
+        <h2>Endereço e Contato:</h2>
+        <address>
+            <b>Desenvolvido por:</b> <a>EVELLYN SILVA</a>.<br>
+            <b>Visite:</b> <a href="https://www.linkedin.com/in/eva-silva-9b6641210" target="_blank">Meu Linkedin</a><br>
+            <b>Endereço: </b> Rua Potiretama, 248, Recife-PE
+        </address>
+        <hr>
+    </div>
+
+    <script>
+        function loadContent(page) {
+            document.getElementById('contentFrame').src = page;
+        }
+    </script>
+</body>
+
+<footer id="center">
+    <samp>Evellyn Silva © Copyright 2024 - Todos os direitos reservados</samp>
+</footer>
+
+</html>
